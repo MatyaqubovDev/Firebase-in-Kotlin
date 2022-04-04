@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "353407683800",
+    "project_id": "fir-in-anadroid",
+    "storage_bucket": "fir-in-anadroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353407683800:android:0211b613a559d837db5bad",
+        "android_client_info": {
+          "package_name": "dev.matyaqubov.firebaseinandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353407683800-co5v8so3vh6bjukvidu49nodms6dcvk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR5GLCefksxpT80ORL8LLdrukMLbGcSWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353407683800-co5v8so3vh6bjukvidu49nodms6dcvk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
