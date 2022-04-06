@@ -23,6 +23,29 @@ class DatabaseManager {
                 }
         }
 
+        fun apiUpdatePost(post: Post,handler: DatabaseHandler){
+            val map = HashMap<String,Any>()
+            map.put("title",post.title!!)
+            map.put("body",post.body!!)
+            reference.child(post.id!!).updateChildren(map).addOnCompleteListener {task ->
+                if(task.isSuccessful){
+                    handler.onSuccess(post)
+                }else{
+                    handler.onError()
+                }
+            }
+        }
+
+        fun apiDeletePost(post: Post,handler: DatabaseHandler){
+            reference.child(post.id!!).removeValue().addOnCompleteListener {
+                if(it.isSuccessful){
+                    handler.onSuccess()
+                }else{
+                    handler.onError()
+                }
+            }
+        }
+
         fun apiLoadPosts(handler: DatabaseHandler) {
             reference.addValueEventListener(object : ValueEventListener {
                 var posts = ArrayList<Post>()

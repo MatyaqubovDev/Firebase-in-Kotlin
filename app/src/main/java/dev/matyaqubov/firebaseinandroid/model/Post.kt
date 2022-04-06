@@ -1,10 +1,13 @@
 package dev.matyaqubov.firebaseinandroid.model
 
-class Post {
+import java.io.Serializable
+
+class Post : Serializable {
     var id: String? = null
     var title: String? = null
     var body: String? = null
     var img: String = ""
+    var isShowMenu=false
 
     constructor()
     constructor(title: String?, body: String?) {

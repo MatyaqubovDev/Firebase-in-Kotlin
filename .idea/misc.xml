@@ -7,12 +7,14 @@
         <entry key="app/src/main/res/drawable/loading_frame.xml" value="0.2064814814814815" />
         <entry key="app/src/main/res/drawable/shape_circle_orange_light.xml" value="0.2064814814814815" />
         <entry key="app/src/main/res/layout/activity_create.xml" value="0.20416666666666666" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15833333333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.16574074074074074" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/layout/activity_update.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/layout/custom_progress_dialog.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/layout/item_post_list.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/layout/item_post_list_with_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
